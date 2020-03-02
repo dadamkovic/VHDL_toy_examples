@@ -1,0 +1,19 @@
+P:/LogicSynthesis/exercise3/work/vhd/adder.vhd {1 {vcom -work work -2002 -explicit -vopt P:/LogicSynthesis/exercise3/work/vhd/adder.vhd
+Model Technology ModelSim SE vcom 10.2c Compiler 2013.07 Jul 18 2013
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity adder
+-- Compiling architecture rtl of adder
+
+} {} {}} P:/LogicSynthesis/exercise3/work/vhd/tb_adder.vhd {1 {vcom -work work -2002 -explicit -vopt P:/LogicSynthesis/exercise3/work/vhd/tb_adder.vhd
+Model Technology ModelSim SE vcom 10.2c Compiler 2013.07 Jul 18 2013
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity tb_adder
+-- Compiling architecture testbench of tb_adder
+
+} {} {}}

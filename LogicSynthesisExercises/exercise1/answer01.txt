@@ -1,0 +1,6 @@
+1. THe only thing that needed changing was the inccorrect state transition, instead of returning to the initial
+state in case of incorrect third digit, the code allowed the transition to the next state (as if the value was correct_.
+
+2. Added errors similar to the first one but in first and last...
+
+TO DO in case I want to actually finish this. 

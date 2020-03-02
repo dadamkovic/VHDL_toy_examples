@@ -1,0 +1,81 @@
+m255
+K4
+z2
+13
+cModel Technology
+Z0 dP:/LogicSynthesis/exercise1
+!s112 0.1
+!i10d 8192
+!i10e 25
+!i10f 100
+T_opt
+VOg2]LD^P1UjofOWY7QVMV3
+04 4 3 work lock rtl 1
+=1-3c18a00ef53d-5e418464-270-1acc
+o-quiet -auto_acc_if_foreign -work danielWork
+n@_opt
+OE;O;10.2c;57
+Z1 dP:/LogicSynthesis/exercise1
+!s110 1581352037
+Elock
+Z2 w1581349612
+Z3 DPx4 work 8 lock_pkg 0 22 R[5JaGK`hHEWj@:hSi`TT2
+Z4 DPx4 ieee 11 numeric_std 0 22 WES[o8HS0jHV[MIXQk2Ha1
+Z5 DPx3 std 6 textio 0 22 Y8d?=bLj9m4jiPLbo;>GT0
+Z6 DPx4 ieee 14 std_logic_1164 0 22 1bm?@Gd;P>[>_lN8Do9gP3
+R1
+Z7 8P:/LogicSynthesis/exercise1/danielWork/vhd/lock.vhd
+Z8 FP:/LogicSynthesis/exercise1/danielWork/vhd/lock.vhd
+l0
+L6
+VDRoRakC;9egNSV_UAdZ[J2
+Z9 OE;C;10.2c;57
+32
+Z10 !s110 1581352026
+Z11 !s108 1581352026.547000
+Z12 !s90 -reportprogress|300|-work|danielWork|P:/LogicSynthesis/exercise1/danielWork/vhd/lock.vhd|
+Z13 !s107 P:/LogicSynthesis/exercise1/danielWork/vhd/lock.vhd|
+Z14 o-work danielWork
+Z15 tExplicit 1 NoVitalCheck 1 CheckSynthesis 1 NoCoverage 1
+!s100 zX6XM^IYLMJbgiK2EOkzI3
+!i10b 1
+!i111 0
+Artl
+R3
+R4
+R5
+R6
+DEx4 work 4 lock 0 22 DRoRakC;9egNSV_UAdZ[J2
+32
+R10
+l26
+L19
+V9`4HKlW;[e<aOGAiCWVo`0
+R9
+R11
+R12
+R13
+R14
+R15
+!s100 L[mH56mKFk9B02kT0RL633
+!i10b 1
+!i111 0
+Plock_pkg
+32
+!s110 1581352022
+w1581349583
+R1
+8P:/LogicSynthesis/exercise1/danielWork/vhd/lock_pkg.vhd
+FP:/LogicSynthesis/exercise1/danielWork/vhd/lock_pkg.vhd
+l0
+L1
+VR[5JaGK`hHEWj@:hSi`TT2
+R9
+R14
+R15
+!s100 LST^X1[boeZb[aojf<WcY1
+!i10b 1
+!s108 1581352022.485000
+!s90 -reportprogress|300|-work|danielWork|P:/LogicSynthesis/exercise1/danielWork/vhd/lock_pkg.vhd|
+!s107 P:/LogicSynthesis/exercise1/danielWork/vhd/lock_pkg.vhd|
+!i111 0

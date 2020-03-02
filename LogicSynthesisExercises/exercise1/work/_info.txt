@@ -1,0 +1,115 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/daniel/logSys/exercise1
+Elock
+Z1 w1581366892
+Z2 DPx4 work 8 lock_pkg 0 22 fTKJ=ULS[ML1S:3RzQFAX1
+Z3 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z4 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z5 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z6 8C:\daniel\logSys\exercise1\work\vhd\lock.vhd
+Z7 FC:\daniel\logSys\exercise1\work\vhd\lock.vhd
+l0
+L6
+V>OBa870mggiU5CM8Z6@LT2
+!s100 @@TEdSC8i4`Fj<`RgEEW[1
+Z8 OP;C;10.4a;61
+32
+Z9 !s110 1581367523
+!i10b 1
+Z10 !s108 1581367523.000000
+Z11 !s90 -reportprogress|300|-work|work|-2002|-explicit|-check_synthesis|-novitalcheck|-stats=none|C:\daniel\logSys\exercise1\work\vhd\lock.vhd|
+Z12 !s107 C:\daniel\logSys\exercise1\work\vhd\lock.vhd|
+!i113 1
+Z13 o-work work -2002 -explicit -check_synthesis -novitalcheck -O0
+Z14 tExplicit 1
+Artl
+R2
+R3
+R4
+R5
+DEx4 work 4 lock 0 22 >OBa870mggiU5CM8Z6@LT2
+l26
+L19
+VfW_P?0P0Q4]=PU7_f;FQT0
+!s100 fUQW8cgOPlME9G=_4AJm=2
+R8
+32
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 1
+R13
+R14
+Plock_pkg
+w1581358828
+R0
+8C:\daniel\logSys\exercise1\work\vhd\lock_package.vhd
+FC:\daniel\logSys\exercise1\work\vhd\lock_package.vhd
+l0
+L1
+VfTKJ=ULS[ML1S:3RzQFAX1
+!s100 89EhC@[7N>NoGmUm[NWea1
+R8
+32
+R9
+!i10b 1
+R10
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-check_synthesis|-novitalcheck|-stats=none|C:\daniel\logSys\exercise1\work\vhd\lock_package.vhd|
+!s107 C:\daniel\logSys\exercise1\work\vhd\lock_package.vhd|
+!i113 1
+R13
+R14
+Etb_lock
+Z15 w1581367460
+R2
+R3
+R4
+R5
+R0
+Z16 8C:/daniel/logSys/exercise1/work/vhd/tb_lock.vhd
+Z17 FC:/daniel/logSys/exercise1/work/vhd/tb_lock.vhd
+l0
+L23
+VR`]nHmgMZ0V7f_Rnc;O[12
+!s100 nNS1O@`_b3_gUz63UVz?>3
+R8
+32
+Z18 !s110 1581367524
+!i10b 1
+R10
+Z19 !s90 -reportprogress|300|-work|work|-2002|-explicit|-check_synthesis|-novitalcheck|-stats=none|C:/daniel/logSys/exercise1/work/vhd/tb_lock.vhd|
+Z20 !s107 C:/daniel/logSys/exercise1/work/vhd/tb_lock.vhd|
+!i113 1
+R13
+R14
+Atestbench
+R2
+R3
+R4
+R5
+DEx4 work 7 tb_lock 0 22 R`]nHmgMZ0V7f_Rnc;O[12
+l52
+L28
+VoIRfcYE37moDMeP8UV@8P3
+!s100 =LAnRz[>9VcQfCm[d^i<I1
+R8
+32
+R18
+!i10b 1
+R10
+R19
+R20
+!i113 1
+R13
+R14

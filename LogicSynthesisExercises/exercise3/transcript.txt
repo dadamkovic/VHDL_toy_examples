@@ -1,0 +1,165 @@
+# Compile of adder.vhd was successful.
+# Compile of multi_port_adder.vhd failed with 1 errors.
+# Compile of multi_port_adder.vhd failed with 5 errors.
+# Compile of multi_port_adder.vhd failed with 5 errors.
+# Compile of multi_port_adder.vhd failed with 1 errors.
+# Compile of multi_port_adder.vhd failed with 1 errors.
+# Compile of multi_port_adder.vhd failed with 1 errors.
+# Compile of multi_port_adder.vhd failed with 1 errors.
+# Compile of multi_port_adder.vhd was successful.
+# Compile of multi_port_adder.vhd failed with 2 errors.
+# Compile of multi_port_adder.vhd was successful.
+# Compile of multi_port_adder.vhd was successful.
+vsim work.multi_port
+# vsim work.multi_port 
+# ** Note: (vsim-3812) Design is being optimized...
+# 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.multi_port(structural)#1
+# ** Fatal: (vsim-3348) Port length (17) does not match actual length (18) for port '/multi_port/i_compAdd_0/sum_out'.
+#    Time: 0 ns  Iteration: 0  Instance: /multi_port/i_compAdd_0 File: P:/LogicSynthesis/exercise4/work/vhd/adder.vhd Line: 15
+# FATAL ERROR while loading design
+# Error loading design
+vcom -work work -2002 -explicit P:/LogicSynthesis/exercise4/work/vhd/multi_port_adder.vhd
+# Model Technology ModelSim SE vcom 10.2c Compiler 2013.07 Jul 18 2013
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity multi_port
+# -- Compiling architecture structural of multi_port
+vsim work.multi_port
+# vsim work.multi_port 
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.multi_port(structural)#1
+# ** Fatal: (vsim-3348) Port length (17) does not match actual length (18) for port '/multi_port/i_compAdd_0/sum_out'.
+#    Time: 0 ns  Iteration: 0  Instance: /multi_port/i_compAdd_0 File: P:/LogicSynthesis/exercise4/work/vhd/adder.vhd Line: 15
+# FATAL ERROR while loading design
+# Error loading design
+vcom -work work -2002 -explicit P:/LogicSynthesis/exercise4/work/vhd/multi_port_adder.vhd
+# Model Technology ModelSim SE vcom 10.2c Compiler 2013.07 Jul 18 2013
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity multi_port
+# -- Compiling architecture structural of multi_port
+vsim work.multi_port
+# vsim work.multi_port 
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.multi_port(structural)#1
+# ** Fatal: (vsim-3471) Slice range (67 downto 48) does not belong to the prefix index range (63 downto 0).
+#    Time: 0 ns  Iteration: 0  Instance: /multi_port File: P:/LogicSynthesis/exercise4/work/vhd/multi_port_adder.vhd Line: 37
+# FATAL ERROR while loading design
+# Error loading design
+vcom -work work -2002 -explicit P:/LogicSynthesis/exercise4/work/vhd/multi_port_adder.vhd
+# Model Technology ModelSim SE vcom 10.2c Compiler 2013.07 Jul 18 2013
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity multi_port
+# -- Compiling architecture structural of multi_port
+vsim work.multi_port
+# vsim work.multi_port 
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.multi_port(structural)#1
+# ** Fatal: (vsim-3348) Port length (17) does not match actual length (18) for port '/multi_port/i_compAdd_0/sum_out'.
+#    Time: 0 ns  Iteration: 0  Instance: /multi_port/i_compAdd_0 File: P:/LogicSynthesis/exercise4/work/vhd/adder.vhd Line: 15
+# FATAL ERROR while loading design
+# Error loading design
+vcom -work work -2002 -explicit P:/LogicSynthesis/exercise4/work/vhd/multi_port_adder.vhd
+# Model Technology ModelSim SE vcom 10.2c Compiler 2013.07 Jul 18 2013
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity multi_port
+# -- Compiling architecture structural of multi_port
+vsim work.multi_port
+# vsim work.multi_port 
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.multi_port(structural)#1
+# ** Fatal: (vsim-3348) Port length (16) does not match actual length (17) for port '/multi_port/i_compAdd_2/a_in'.
+#    Time: 0 ns  Iteration: 0  Instance: /multi_port/i_compAdd_2 File: P:/LogicSynthesis/exercise4/work/vhd/adder.vhd Line: 14
+# FATAL ERROR while loading design
+# Error loading design
+vcom -work work -2002 -explicit P:/LogicSynthesis/exercise4/work/vhd/multi_port_adder.vhd
+# Model Technology ModelSim SE vcom 10.2c Compiler 2013.07 Jul 18 2013
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity multi_port
+# -- Compiling architecture structural of multi_port
+vsim work.multi_port
+# vsim work.multi_port 
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.multi_port(structural)#1
+# ** Fatal: (vsim-3348) Port length (16) does not match actual length (17) for port '/multi_port/i_compAdd_2/a_in'.
+#    Time: 0 ns  Iteration: 0  Instance: /multi_port/i_compAdd_2 File: P:/LogicSynthesis/exercise4/work/vhd/adder.vhd Line: 14
+# FATAL ERROR while loading design
+# Error loading design
+vcom -work work -2002 -explicit P:/LogicSynthesis/exercise4/work/vhd/multi_port_adder.vhd
+# Model Technology ModelSim SE vcom 10.2c Compiler 2013.07 Jul 18 2013
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity multi_port
+# -- Compiling architecture structural of multi_port
+vsim work.multi_port
+# vsim work.multi_port 
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.multi_port(structural)#1
+view wave -detach
+# Unrecognized option: -detach
+view wave detach
+# Invalid window pattern: detach
+# .main_pane.wave.interior.cs.body.pw.wf
+add wave *
+property wave -radix decimal *
+quit -sim
+cd P:/LogicSynthesis/exercise4BONUS
+# reading modelsim.ini
+# reading C:/Apps/MODELTECH_10.2C/win32/../modelsim.ini
+vlib work
+vmap work work
+# Copying C:/Apps/MODELTECH_10.2C/win32/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:/Apps/MODELTECH_10.2C/win32/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# Loading project exercise4BONUS

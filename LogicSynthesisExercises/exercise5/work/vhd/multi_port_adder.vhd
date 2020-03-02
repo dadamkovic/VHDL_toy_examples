@@ -1,0 +1,86 @@
+-- authoor : Daniel Adamkovic
+-- about: A simple synchronous adder, with generic width parameter
+
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+
+
+entity multi_port_adder is
+  generic(
+    operand_width_g : integer := 16;
+    num_of_operands_g     : integer := 4
+  );
+  port(
+    clk, rst_n      : in std_logic;
+    operands_in     : in std_logic_vector(operand_width_g*num_of_operands_g -1 downto 0);
+    sum_out         : out std_logic_vector(operand_width_g-1 downto 0)
+  );
+end multi_port_adder;
+
+architecture structural of multi_port_adder is
+  component adder
+    generic (
+      operand_width_g :     integer
+    );
+    port (
+      clk             : in  std_logic;
+      rst_n           : in  std_logic;
+      a_in            : in  std_logic_vector(operand_width_g-1 downto 0);
+      b_in            : in  std_logic_vector(operand_width_g-1 downto 0);
+      sum_out         : out std_logic_vector(operand_width_g downto 0));
+  end component;
+  
+  type new_type is array (num_of_operands_g /2-1 downto 0) of std_logic_vector(operand_width_g downto 0);
+  signal subtotal : new_type;
+  signal total    : std_logic_vector(operand_width_g+1 downto 0);
+  alias first_operand : std_logic_vector is operands_in(operand_width_g*num_of_operands_g -1 downto operand_width_g*(num_of_operands_g -1));
+  alias second_operand : std_logic_vector is operands_in(operand_width_g*(num_of_operands_g -1)-1 downto operand_width_g*(num_of_operands_g -2));
+  alias third_operand : std_logic_vector is operands_in(operand_width_g*(num_of_operands_g -2)-1 downto operand_width_g*(num_of_operands_g -3));
+  alias fourth_operand : std_logic_vector is operands_in(operand_width_g*(num_of_operands_g -3)-1 downto 0);
+  
+begin
+  
+  assert  num_of_operands_g  = 4
+  report "Num of operands is not the length it should be"
+  severity failure;
+  
+  i_compAdd_0 : adder
+    generic map (
+      operand_width_g => operand_width_g
+    )
+    port map (
+      clk             => clk,
+      rst_n           => rst_n,
+      a_in            => first_operand,
+      b_in            => second_operand,
+      sum_out         => subtotal(0)
+  );
+  
+  i_compAdd_1 : adder
+    generic map (
+      operand_width_g => operand_width_g
+    )
+    port map (
+      clk             => clk,
+      rst_n           => rst_n,
+      a_in            => third_operand,
+      b_in            => fourth_operand,
+      sum_out         => subtotal(1)
+  );
+  i_compAdd_2 : adder
+    generic map (
+      operand_width_g => operand_width_g+1
+    )
+    port map (
+      clk             => clk,
+      rst_n           => rst_n,
+      a_in            => subtotal(0),
+      b_in            => subtotal(1),
+      sum_out         => total 
+  );
+  
+  sum_out <= total(operand_width_g-1 downto 0);
+end structural;
+
+    

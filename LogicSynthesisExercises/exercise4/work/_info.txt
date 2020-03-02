@@ -1,0 +1,100 @@
+m255
+K4
+z2
+13
+cModel Technology
+Z0 dP:/LogicSynthesis/exercise4
+!s112 0.1
+!i10d 8192
+!i10e 25
+!i10f 100
+T_opt
+!s110 1581522701
+VK<Mge4n^<1M2`D`<i52Aj0
+04 10 10 work multi_port structural 1
+=1-309c233b0123-5e441f0c-323-3308
+o-quiet -auto_acc_if_foreign -work work
+n@_opt
+OE;O;10.2c;57
+Eadder
+Z1 w1581519207
+Z2 DPx4 ieee 11 numeric_std 0 22 WES[o8HS0jHV[MIXQk2Ha1
+Z3 DPx3 std 6 textio 0 22 Y8d?=bLj9m4jiPLbo;>GT0
+Z4 DPx4 ieee 14 std_logic_1164 0 22 1bm?@Gd;P>[>_lN8Do9gP3
+Z5 dP:/LogicSynthesis/exercise4
+Z6 8P:\LogicSynthesis\exercise4\work\vhd\adder.vhd
+Z7 FP:\LogicSynthesis\exercise4\work\vhd\adder.vhd
+l0
+L8
+VTlB9z5gAhoRDK967`j36n0
+Z8 OE;C;10.2c;57
+32
+Z9 !s110 1581521078
+Z10 !s108 1581521078.203000
+Z11 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|P:\LogicSynthesis\exercise4\work\vhd\adder.vhd|
+Z12 !s107 P:\LogicSynthesis\exercise4\work\vhd\adder.vhd|
+Z13 o-work work -2002 -explicit
+Z14 tExplicit 1
+!s100 LfBUlMV`L0So2QPU88KJo1
+!i10b 1
+!i111 0
+Artl
+R2
+R3
+R4
+DEx4 work 5 adder 0 22 TlB9z5gAhoRDK967`j36n0
+l26
+L20
+VRDROU5A]E6Gf4=?NDad>O0
+R8
+32
+R9
+R10
+R11
+R12
+R13
+R14
+!s100 3EZm3I`Yblf3f_na<D>@j0
+!i10b 1
+!i111 0
+Emulti_port
+Z15 w1581522693
+R2
+R3
+R4
+R5
+Z16 8P:/LogicSynthesis/exercise4/work/vhd/multi_port_adder.vhd
+Z17 FP:/LogicSynthesis/exercise4/work/vhd/multi_port_adder.vhd
+l0
+L9
+V[9`mS?kX5EPo3HVo^aH_d1
+R8
+32
+Z18 !s110 1581522698
+Z19 !s108 1581522698.413000
+Z20 !s90 -reportprogress|300|-work|work|-2002|-explicit|P:/LogicSynthesis/exercise4/work/vhd/multi_port_adder.vhd|
+Z21 !s107 P:/LogicSynthesis/exercise4/work/vhd/multi_port_adder.vhd|
+R13
+R14
+!s100 @AnCX:fn9G_eNVj7MSMR62
+!i10b 1
+!i111 0
+Astructural
+R2
+R3
+R4
+DEx4 work 10 multi_port 0 22 [9`mS?kX5EPo3HVo^aH_d1
+l42
+L21
+VJ0mjS=:3_JC6@YJGj8d^90
+R8
+32
+R18
+R19
+R20
+R21
+R13
+R14
+!s100 UHQ]z08FA]0:Ge2eomNg`1
+!i10b 1
+!i111 0

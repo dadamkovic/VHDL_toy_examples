@@ -1,0 +1,133 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/daniel/logSys/exercise5
+Eadder
+Z1 w1581519207
+Z2 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z5 8C:/daniel/logSys/exercise5/work/vhd/adder.vhd
+Z6 FC:/daniel/logSys/exercise5/work/vhd/adder.vhd
+l0
+L8
+VbbRU^UI`k7l2e712jjBWm2
+!s100 b;jcn5=O6FU`hF9KI]R_40
+Z7 OP;C;10.4a;61
+33
+Z8 !s110 1581627371
+!i10b 1
+Z9 !s108 1581627371.000000
+Z10 !s90 -reportprogress|300|-work|work|-2008|-explicit|-check_synthesis|-novitalcheck|-stats=none|C:/daniel/logSys/exercise5/work/vhd/adder.vhd|
+Z11 !s107 C:/daniel/logSys/exercise5/work/vhd/adder.vhd|
+!i113 1
+Z12 o-work work -2008 -explicit -check_synthesis -novitalcheck -O0
+Z13 tExplicit 1
+Artl
+R2
+R3
+R4
+DEx4 work 5 adder 0 22 bbRU^UI`k7l2e712jjBWm2
+l26
+L20
+VEVdGj3;:F2jGR9W?4??Sd0
+!s100 >M6f72F`D?[eP=_8N>1fB1
+R7
+33
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Emulti_port_adder
+Z14 w1581611280
+R2
+R3
+R4
+R0
+Z15 8C:/daniel/logSys/exercise5/work/vhd/multi_port_adder.vhd
+Z16 FC:/daniel/logSys/exercise5/work/vhd/multi_port_adder.vhd
+l0
+L9
+VEcIYJe5_`O5cji=VV2n0C0
+!s100 mH[Q2F5F;[=l7@bf`^Edh0
+R7
+33
+R8
+!i10b 1
+R9
+Z17 !s90 -reportprogress|300|-work|work|-2008|-explicit|-check_synthesis|-novitalcheck|-stats=none|C:/daniel/logSys/exercise5/work/vhd/multi_port_adder.vhd|
+Z18 !s107 C:/daniel/logSys/exercise5/work/vhd/multi_port_adder.vhd|
+!i113 1
+R12
+R13
+Astructural
+R2
+R3
+R4
+DEx4 work 16 multi_port_adder 0 22 EcIYJe5_`O5cji=VV2n0C0
+l42
+L21
+V>>0J@Mdlf3k;^WZ>K[Z1=0
+Z19 !s100 2:he5JEXn>zGBAQz1LE@m0
+R7
+33
+R8
+!i10b 1
+R9
+R17
+R18
+!i113 1
+R12
+R13
+Etb_multi_port_adder
+Z20 w1581627297
+R2
+R3
+R4
+R0
+Z21 8C:/daniel/logSys/exercise5/work/vhd/tb_multi_port_adder.vhd
+Z22 FC:/daniel/logSys/exercise5/work/vhd/tb_multi_port_adder.vhd
+l0
+L27
+VnYOFI:CiCDeE9LhOCVG^F1
+!s100 @b<Zmh<hKad<Q3LC01[BN0
+R7
+33
+Z23 !s110 1581627358
+!i10b 1
+Z24 !s108 1581627358.000000
+Z25 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/daniel/logSys/exercise5/work/vhd/tb_multi_port_adder.vhd|
+Z26 !s107 C:/daniel/logSys/exercise5/work/vhd/tb_multi_port_adder.vhd|
+!i113 1
+Z27 o-work work -2008 -explicit -O0
+R13
+Atestbench
+R2
+R3
+R4
+DEx4 work 19 tb_multi_port_adder 0 22 nYOFI:CiCDeE9LhOCVG^F1
+l63
+L33
+VaPF=JQf49faUbAR^Iz=1L2
+!s100 2@lhYMS[6SNS`V1Eh<TaO1
+R7
+33
+R23
+!i10b 1
+R24
+R25
+R26
+!i113 1
+R27
+R13

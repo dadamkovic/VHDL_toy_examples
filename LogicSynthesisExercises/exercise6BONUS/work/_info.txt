@@ -1,0 +1,132 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/daniel/logSys/exercise6BONUS
+Esine_gen
+Z1 w1581636783
+Z2 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z5 8C:/daniel/logSys/exercise6BONUS/work/vhd/sine_gen.vhd
+Z6 FC:/daniel/logSys/exercise6BONUS/work/vhd/sine_gen.vhd
+l0
+L27
+V<b2O=EF@Vb^PSm9:z:lz63
+!s100 JDhO<9[z?To3A8Z2CAQ:_3
+Z7 OP;C;10.4a;61
+33
+Z8 !s110 1581636796
+!i10b 1
+Z9 !s108 1581636796.000000
+Z10 !s90 -reportprogress|300|-work|work|-2008|-explicit|-check_synthesis|-novitalcheck|-O0|C:/daniel/logSys/exercise6BONUS/work/vhd/sine_gen.vhd|
+Z11 !s107 C:/daniel/logSys/exercise6BONUS/work/vhd/sine_gen.vhd|
+!i113 1
+Z12 o-work work -2008 -explicit -check_synthesis -novitalcheck -O0
+Z13 tExplicit 1
+Artl
+R2
+R3
+R4
+Z14 DEx4 work 8 sine_gen 0 22 <b2O=EF@Vb^PSm9:z:lz63
+l72
+L44
+V1nfhI[O7hc5;0ZU;B9K?]1
+!s100 N^U4Cin[lX;Smm]:S_aX_1
+R7
+33
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Asine_gen_arc
+R2
+R3
+R4
+DEx4 work 8 sine_gen 0 22 oBIGDDE1n6i`Ze2>FPWoJ1
+l36
+L28
+Vc[1JoV`L>;7jK6:l@<XXi3
+!s100 KV4O?2V`>SRDd3Ij>6fRY1
+R7
+32
+!s110 1581554567
+!i10b 1
+!s108 1581554567.000000
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-O0|C:/daniel/logSys/exercise6BONUS/work/vhd/sine_gen.vhd|
+R11
+!i113 1
+Z15 o-work work -2002 -explicit -O0
+R13
+w1581554542
+Etb_sine_gen
+Z16 w1581636466
+R2
+R3
+R4
+R0
+Z17 8C:/daniel/logSys/exercise6BONUS/work/vhd/tb_sine_gen.vhd
+Z18 FC:/daniel/logSys/exercise6BONUS/work/vhd/tb_sine_gen.vhd
+l0
+L26
+VT=>:bz9g4T<`[SiE:cek81
+!s100 h_SBUZHYZ2Xl>A^O4:[Ah3
+R7
+33
+Z19 !s110 1581636472
+!i10b 1
+Z20 !s108 1581636472.000000
+Z21 !s90 -reportprogress|300|-work|work|-2008|-explicit|-O0|C:/daniel/logSys/exercise6BONUS/work/vhd/tb_sine_gen.vhd|
+Z22 !s107 C:/daniel/logSys/exercise6BONUS/work/vhd/tb_sine_gen.vhd|
+!i113 1
+Z23 o-work work -2008 -explicit -O0
+R13
+Abehavorial
+R2
+R3
+R4
+DEx4 work 11 tb_sine_gen 0 22 T=>:bz9g4T<`[SiE:cek81
+l54
+L30
+V<e:c5=8OX]JITbNOEFGcM1
+!s100 7C_14@KLYonM0gLB8SL]K2
+R7
+33
+R19
+!i10b 1
+R20
+R21
+R22
+!i113 1
+R23
+R13
+Atb_sine_gen_arc
+R2
+R3
+R4
+DEx4 work 11 tb_sine_gen 0 22 bNn:jD=ZK@;nzY9C:oVMC0
+l51
+L30
+VfgOS0?Z@IG_::jGULJY2P0
+!s100 b9Xb6:i9Z9h]WDlC^4NC@3
+R7
+32
+!s110 1581552888
+!i10b 1
+!s108 1581552888.000000
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-O0|C:/daniel/logSys/exercise6BONUS/work/vhd/tb_sine_gen.vhd|
+R22
+!i113 1
+R15
+R13
+w1581552864

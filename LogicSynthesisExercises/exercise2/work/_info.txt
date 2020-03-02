@@ -1,0 +1,90 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/daniel/logSys/exercise2
+Eripple_carry_adder
+Z1 w1581463541
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z4 8C:/daniel/logSys/exercise2/work/vhd/ripple_carry_adder.vhd
+Z5 FC:/daniel/logSys/exercise2/work/vhd/ripple_carry_adder.vhd
+l0
+L23
+V9i6A3LJ[BCVHSgOgLESP40
+!s100 P`[^7l]d>V_7k4AlK5S`H2
+Z6 OP;C;10.4a;61
+32
+Z7 !s110 1581463547
+!i10b 1
+Z8 !s108 1581463547.000000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-O0|C:/daniel/logSys/exercise2/work/vhd/ripple_carry_adder.vhd|
+Z10 !s107 C:/daniel/logSys/exercise2/work/vhd/ripple_carry_adder.vhd|
+!i113 1
+Z11 o-work work -2002 -explicit -O0
+Z12 tExplicit 1
+Agate
+R2
+R3
+Z13 DEx4 work 18 ripple_carry_adder 0 22 9i6A3LJ[BCVHSgOgLESP40
+l40
+L35
+VKY?L1moDbn<_4i_OSobKe3
+!s100 4><`m7@=]6JbT^C5PHTa<1
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Etb_ripple_carry_adder
+Z14 w1581462852
+Z15 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+R2
+R3
+R0
+Z16 8C:/daniel/logSys/exercise2/work/vhd/tb_ripple_carry_adder.vhd
+Z17 FC:/daniel/logSys/exercise2/work/vhd/tb_ripple_carry_adder.vhd
+l0
+L30
+Vo8a6YX4POaL1cEAicjb5:0
+!s100 3RFIGgdFMOeA2Mi?R70^R2
+R6
+32
+Z18 !s110 1581463053
+!i10b 1
+Z19 !s108 1581463053.000000
+Z20 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/daniel/logSys/exercise2/work/vhd/tb_ripple_carry_adder.vhd|
+Z21 !s107 C:/daniel/logSys/exercise2/work/vhd/tb_ripple_carry_adder.vhd|
+!i113 1
+R11
+R12
+Atestbench
+R15
+R2
+R3
+DEx4 work 21 tb_ripple_carry_adder 0 22 o8a6YX4POaL1cEAicjb5:0
+l61
+L35
+VSg`_Y67a`7Wc:1I]SGn9S0
+!s100 NVElk9D;_XW15@@<KMb0Y0
+R6
+32
+R18
+!i10b 1
+R19
+R20
+R21
+!i113 1
+R11
+R12
